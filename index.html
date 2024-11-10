@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR BY GODSFAVOUR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" placeholder="0" class="inputextBox" readonly />
+
+        <button onclick="clr()">AC</button>
+        <!-- <button onclick="del()">DEL</button> -->
+        <button onclick="deleteByOne()">Del</button>
+        <!-- <button onclick="calculate('%')">%</button> -->
+        <button onclick="calculate('/')">/</button>
+        <button onclick="calculate(7)">7</button>
+        <button onclick="calculate(8)">8</button>
+        <button onclick="calculate(9)">9</button>
+        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate(4)">4</button>
+        <button onclick="calculate(5)">5</button>
+        <button onclick="calculate(6)">6</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate(1)">1</button>
+        <button onclick="calculate(2)">2</button>
+        <button onclick="calculate(3)">3</button>
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('.')">.</button>
+        <button onclick="calculate('00')">00</button>
+        <button onclick="calculate(0)">0</button>
+        <button onclick="Result('=')">=</button>
+        <button onclick="sin()">sin</button>
+        <button onclick="cos()">cos</button>
+        <button onclick="tan()">tan</button>
+        <button onclick="pi()" class="pi">&#x213C;</button>
+        <button onclick="Exp()">EXP</button>
+        <button onclick="log()">log</button>
+        <button onclick="sqrt()">&#8730;</button>
+        <button onclick="pow()"><sub>x</sub>2</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

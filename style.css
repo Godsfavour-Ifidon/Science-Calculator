@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ececec;
+  font-family: 16px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  padding: 20px;
+  border-radius: 28px;
+  background: #ecf0f3;
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(6, 66px);
+  box-shadow: 6px 6px 13px #fff, 6px 6px 13px rgb(0, 0, 0, 0.16);
+}
+
+input {
+  grid-column: span 6;
+  box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgb(0, 0, 0, 0.16);
+  border: none;
+  height: 68px;
+  width: 400px;
+  color: grey;
+  font-size: 40px;
+  background: #ecf0f3;
+  border-radius: 32px;
+  padding: 20px;
+  margin: 30px;
+}
+
+button {
+  box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgb(0, 0, 0, 0.16);
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+  height: 60px;
+  width: 60px;
+  margin: 10px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.changecolor {
+  color: red;
+}
+
+.changecolor-1 {
+  color: red;
+  font-size: 16px;
+}
+
+.changecolor-2 {
+  color: red;
+  font-size: 16px;
+}
